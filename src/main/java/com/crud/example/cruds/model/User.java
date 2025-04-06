@@ -1,4 +1,4 @@
-package com.crud.example.Jwt.model;
+package com.crud.example.cruds.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.crud.example.Jwt.Dto;
+package com.crud.example.cruds.Dto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

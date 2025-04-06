@@ -1,6 +1,6 @@
-package com.crud.example.Jwt.repository;
+package com.crud.example.cruds.repository;
 
-import com.crud.example.Jwt.model.User;
+import com.crud.example.cruds.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

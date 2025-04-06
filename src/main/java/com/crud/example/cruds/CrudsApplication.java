@@ -1,13 +1,13 @@
-package com.crud.example.Jwt;
+package com.crud.example.cruds;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JwtApplication {
+public class CrudsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JwtApplication.class, args);
+		SpringApplication.run(CrudsApplication.class, args);
 	}
 
 }
