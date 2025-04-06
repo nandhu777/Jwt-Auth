@@ -1,9 +1,9 @@
-package com.crud.example.cruds.controller;
-import com.crud.example.cruds.Dto.LoginRequest;
-import com.crud.example.cruds.Dto.SignupRequest;
-import com.crud.example.cruds.model.User;
-import com.crud.example.cruds.repository.UserRepo;
-import com.crud.example.cruds.security.JwtUtil;
+package com.crud.example.Jwt.controller;
+import com.crud.example.Jwt.Dto.LoginRequest;
+import com.crud.example.Jwt.Dto.SignupRequest;
+import com.crud.example.Jwt.model.User;
+import com.crud.example.Jwt.repository.UserRepo;
+import com.crud.example.Jwt.security.JwtUtil;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 

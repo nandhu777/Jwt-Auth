@@ -1,7 +1,6 @@
-package com.crud.example.cruds.security;
+package com.crud.example.Jwt.security;
 
-import com.crud.example.cruds.repository.UserRepo;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.crud.example.Jwt.repository.UserRepo;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

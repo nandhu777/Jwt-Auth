@@ -11,8 +11,9 @@
 	<groupId>com.crud.example</groupId>
 	<artifactId>cruds</artifactId>
 	<version>1.0</version>
-	<name>cruds</name>
-	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
+	<name>Jwt-Auth</name>
+	<description>Jwt-Auth</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -51,7 +52,7 @@
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt-jackson</artifactId> <!-- or jjwt-gson if you prefer -->
+			<artifactId>jjwt-jackson</artifactId>
 			<version>0.11.5</version>
 			<scope>runtime</scope>
 		</dependency>
