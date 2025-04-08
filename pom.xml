@@ -8,11 +8,24 @@
 		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.crud.example</groupId>
-	<artifactId>cruds</artifactId>
-	<version>1.0</version>
-	<name>cruds</name>
-	<description>Demo project for Spring Boot</description>
+	<groupId>com.jwt.example</groupId>
+	<artifactId>jwt</artifactId>
+	<version>1.0.0</version>
+	<name>Jwt-Auth</name>
+	<description>Jwt-Auth-token-login/signup</description>
+
+	<!-- GITHUB DISTRIBUTION MANAGEMENT -->
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/nandhu777/Jwt-Auth</url>
+		</repository>
+	</distributionManagement>
+
+
+
+
 	<url/>
 	<licenses>
 		<license/>

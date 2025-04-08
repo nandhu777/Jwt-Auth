@@ -1,4 +1,4 @@
-package com.crud.example.cruds.security;
+package com.jwt.example.jwt.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
