@@ -1,4 +1,5 @@
 package com.jwt.example.jwt.model;
+import com.jwt.example.jwt.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -18,5 +19,7 @@ public class User {
     private String username;
     private String email;
     private String password;
+    @Enumerated(EnumType.STRING)
+    private Role role = Role.USER; // default role
 
 }
